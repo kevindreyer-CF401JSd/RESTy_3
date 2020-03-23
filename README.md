@@ -1,4 +1,4 @@
-# RESTy_2
+# RESTy_3
 
 - To run server: `npm run start`
 - To build front end: `npm run build`
