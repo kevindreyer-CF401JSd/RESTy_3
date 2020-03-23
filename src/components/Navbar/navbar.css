@@ -1,0 +1,9 @@
+li.nav {
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 1em;
+  background-color: lightblue;
+}
