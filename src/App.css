@@ -1,0 +1,153 @@
+.App {
+  text-align: left;
+}
+
+.App p {
+  padding-left: 40px;
+}
+
+.App-logo {
+  height: 12vmin;
+  pointer-events: none;
+  position: absolute;
+  right: 50%;
+  top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(8px + 1vmin);
+  color: white;
+}
+
+.Navbar {
+  justify-content: center;
+}
+
+.URLform {
+  margin: 5px auto;
+  width: 90%;
+}
+
+.URLform * {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.RESTmethods  {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.method {
+  color: white;
+  width: 160px;
+  border: 3px solid black;
+  border-radius: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#RESTunselected {
+  background-color: black;
+  color: white;
+}
+
+#RESTselected {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.method:hover {
+  border: 3px solid red;
+}
+
+.run {
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 2px;
+  color: black;
+  width: 160px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.run:hover {
+  background-color: gray;
+}
+
+.Interface {
+  min-height: 50vh;
+}
+
+.results {
+  width: 90%;
+  margin: 5px auto;
+  min-height: 60vh;
+  border: 5px solid grey;
+  align-items: left;
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#loading {
+  visibility: visible;
+}
+
+#notloading {
+  visibility: hidden;
+}
+
+footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
